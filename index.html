@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLUGshop</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Integrated Blank From Scratch Project -->
+    <nav>
+      <div class="logo">
+        <img src="src/assets/icon/Vector.png" alt="vecotr">
+        <h1>PLUG<span>shop</span></h1>
+      </div>
+
+      <div class="nav-utama">
+        <li><a href="#home" class="menu-item">Home</a></li>
+        <li><a href="#categories" class="menu-item">Categories</a></li>
+        <li><a href="#product" class="menu-item">Product</a></li>
+        <li><a href="#about" class="menu-item">About</a></li>
+        <li><a href="#testimoni" class="menu-item">Testimoni</a></li>     
+      </div>
+
+      <div class="nav-ekstra">
+        <a href="#" id="search-icon"><i class='icon-nav bx bx-search-alt-2'></i></a>
+        <a href="#"><i class='icon-nav bx bxs-shopping-bags'></i></a>
+        <a href="#" id="user-icon"><i class='icon-nav bx bxs-user'></i></a>
+      </div>
+
+      <div class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box"><i class='bx bx-search'></i></label>
+      </div>
+
+      <div class="blur-login" id="login-form">
+        <div class="login" id="real-login">
+          <h1>Login</h1>
+          <div class="inputan">
+            <div class="form-login">
+              <input type="email" placeholder="Masukkan Email">
+              <input type="password" placeholder="Masukkan Password">
+            </div>
+           
+            <div class="remember">
+              <p><input type="checkbox"> Ingatkan saya</p>
+              <a href="#">Lupa password?</a>
+            </div>       
+          </div>
+          <div class="btn-login">
+            <a href="#"><h3>Login</h3></a>
+          </div>
+          <p class="member">Belum menjadi anggota?<span><a href="#">Daftar Sekarang</a></span></p>
+        </div>
+        
+      </div>
+      
+      <a href="#" id="hamburger"><i data-feather="menu"></i></a>   
+    </nav>
+
+    <section id="home">
+      <div class="container-hero">
+        <div class="tulisan-hero" data-aos="fade-right"  data-aos-delay="100">
+          <h1>Welcome's PLUG<span>shop</span></h1>
+          <h2>Shop with Ease, Anytime, Anywhere!</h2>
+          <p>Belanja sesuai dengan pilihan anda
+            hanya di PlugShop aman dan tepercaya</p>
+          <div class="btn-hero">
+            <a href="#categories" class="btn">Shop Now</a>
+            <button>Log in</button>
+            <!-- <a href="#">Log in</a> -->
+          </div>
+        </div>       
+        <div class="img"  data-aos="fade-left"  data-aos-delay="100">
+          <img  src="src/assets/IMG/bro.png" alt="">
+        </div>
+      </div>    
+    </section>
+
+    <section id="featured">
+      <div class="container">
+        <div class="row">
+          <div class="card">
+            <img src="src/assets/IMG/rafiki.png" alt="">
+            <p class="online-order">Online Order</p>
+          </div>
+
+          <div class="card">
+            <img src="src/assets/IMG/1.png" alt="">
+            <p class="save-money">Save Money</p>
+          </div>
+
+          <div class="card">
+            <img src="src/assets/IMG/2.png" alt="">
+            <p class="home-delivery">Home Delivery</p>
+          </div>
+
+          <div class="card">
+            <img src="src/assets/IMG/3.png" alt="">
+            <p class="user-friendly">User Friendly</p>
+          </div>
+
+          <div class="card">
+            <img src="src/assets/IMG/4.png" alt="">
+            <p class="discount">Discount++</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories">
+      <div class="container">
+        <h1 class="cat-tulisan">Categories</h1>
+        <div class="row-categories">
+          <a href="shoes.html"><div class="cat-card">
+            <img src="src/assets/IMG/Shoes/3191-removebg-preview.png" alt="sepatu">
+            <h3 class="shoes">Shoes</h3>
+          </div></a>
+
+          <a href="shirt.html"><div class="cat-card">
+            <img src="src/assets/IMG/Shirt/5533830_126-removebg-preview.png" alt="sepatu">
+            <h3 class="shirt">Shirt</h3>
+          </div></a>
+
+          <a href="pants.html"><div class="cat-card">
+            <img src="src/assets/IMG/hmgoepprod-removebg-preview.png" alt="sepatu">
+            <h3 class="pants">Pants</h3>
+          </div></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="product">
+      <div class="container-product">
+        <div class="product-head">
+          <h1><span>Most Popular </span>Product</h1>
+          <i class='bx bxs-hot' style='color:#ff1111'></i>
+        </div>
+          <div class="row-card-product">  
+
+            <div class="card-product">
+              <div class="images-content">
+                <img src="src/assets/IMG/Shoes/AIR_JORDAN_12_GYM_RED-removebg-preview.png" alt="">
+              </div>     
+              <p>Nike</p>
+              <h4>Zoom Air Max</h4>
+              <div class="star">
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+              </div>
+              <h4>$9.4</h4>
+              <a href="#" class="btn-cart"><i class='bx bxs-cart-add cart' style='color:#007458'  ></i></a>
+            </div>
+
+            <div class="card-product">
+              <div class="images-content">
+                <img src="src/assets/IMG/Shoes/[removal.ai]_tmp-6479ba0f70735.png" alt="">
+              </div>     
+              <p>Nike</p>
+              <h4>Zoom Air Max</h4>
+              <div class="star">
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+              </div>
+              <h4>$9.4</h4>
+              <a href="#" class="btn-cart"><i class='bx bxs-cart-add cart' style='color:#007458'  ></i></a>
+            </div>
+
+            <div class="card-product">
+              <div class="images-content">
+                <img src="src/assets/IMG/Shoes/31208-removebg-preview.png" alt="">
+              </div>     
+              <p>Nike</p>
+              <h4>Zoom Air Max</h4>
+              <div class="star">
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+              </div>
+              <h4>$9.4</h4>
+              <i class='bx bxs-cart-add cart' style='color:#007458'  ></i>
+            </div>
+            
+            <div class="card-product">
+              <div class="images-content">
+                <img src="src/assets/IMG/Shoes/domino-164_6wVEHfI-unsplash-removebg-preview.png" alt="">
+              </div>     
+              <p>Nike</p>
+              <h4>Zoom Air Max</h4>
+              <div class="star">
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+              </div>
+              <h4>$9.4</h4>
+              <i class='bx bxs-cart-add cart' style='color:#007458'  ></i>
+            </div>
+
+            <div class="card-product">
+              <div class="images-content">
+                <img src="src/assets/IMG/Shoes/background-shoes-pair-men-red-removebg-preview.png" alt="">
+              </div>     
+              <p>Nike</p>
+              <h4>Zoom Air Max</h4>
+              <div class="star">
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+              </div>
+              <h4>$9.4</h4>
+              <i class='bx bxs-cart-add cart' style='color:#007458'  ></i>
+            </div>
+
+            <div class="card-product">
+              <div class="images-content">
+                <img src="src/assets/IMG/Shirt/santhosh-kumar-RqYTuWkTdEs-unsplash-removebg-preview.png" alt="">
+              </div>     
+              <p>Nike</p>
+              <h4>Zoom Air Max</h4>
+              <div class="star">
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+              </div>
+              <h4>$9.4</h4>
+              <i class='bx bxs-cart-add cart' style='color:#007458'  ></i>
+            </div>
+
+            <div class="card-product">
+              <div class="images-content">
+                <img src="src/assets/IMG/Shoes/Nike_Benassi_JDI_Slide-removebg-preview.png" alt="">
+              </div>     
+              <p>Nike</p>
+              <h4>Zoom Air Max</h4>
+              <div class="star">
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+              </div>
+              <h4>$9.4</h4>
+              <i class='bx bxs-cart-add cart' style='color:#007458'  ></i>
+            </div>
+
+            <div class="card-product">
+              <div class="images-content">
+                <img src="src/assets/IMG/Shirt/5533830_126-removebg-preview.png" alt="">
+              </div>     
+              <p>Nike</p>
+              <h4>Zoom Air Max</h4>
+              <div class="star">
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+                <i class='bx bxs-star bx-tada bx-rotate-180' style='color:#f0e000' ></i>
+              </div>
+              <h4>$9.4</h4>
+              <i class='bx bxs-cart-add cart' style='color:#007458'  ></i>
+            </div>
+
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container-about">
+        <div class="images-about" data-aos="fade-up" data-aos-delay="200">
+          <a href="https://storyset.com/business"><img src="src/assets/IMG/about-us-page-animate.svg" alt="3d"></a>        
+        </div>
+
+        <div class="about-us">
+          <h2>About <span>Us</span></h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quae, harum ex expedita explicabo vitae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus odio ratione distinctio optio eum illum modi nobis quas veritatis quae.</p>
+          <div class="btn-about">
+            <a href="#">More</a>
+            <i class='bx bxs-chevrons-right' style='color:#007458' ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container-company">
+        <h1>Our Companies</h1>
+        <div class="img-wraper">
+          <div class="images-company">
+            <img src="src/assets/IMG/Logo/840px-BUMN_Hadir_untuk_Negeri_logo.svg.png" alt="" class="bumn">
+          </div>
+
+          <div class="images-company">
+            <img src="src/assets/IMG/Logo/shopee-logo-40477.png" alt="" class="bumn">
+          </div>
+
+          <div class="images-company">
+            <img src="src/assets/IMG/Logo/honda-invests-grab-taxi.png" alt="" class="bumn">
+          </div>
+
+          <div class="images-company">
+            <img src="src/assets/IMG/Logo/Indomie.png" alt="" class="bumn">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="testimoni">
+      <div class="container-testimoni">
+        <div class="tulisan-testi">
+          <h1>Testimoni</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam neque debitis</p>
+        </div>       
+        <div class="row-card-testimoni">
+
+          <div class="card-testimoni" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+            <div class="assets-testi">
+              <i class='bx bxs-quote-left quotes' style='color:#f0e000'  ></i>
+              <div class="star">
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#b3b3b3' ></i>
+              </div>
+            </div>            
+            <p>Web yang sangat bagus untuk berbelanaja belanja nyaman hanya di plugshop</p>
+            <div class="kotak">
+            </div>
+            <div class="name-testi">
+              <div class="images-testimoni">
+                <img src="src/assets/IMG/1682389320129.jpg" alt="gambar1" class="personal">
+              </div>
+              <p>Sadam Husein</p>
+            </div>           
+          </div>
+
+          <div class="card-testimoni" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+            <div class="assets-testi">
+              <i class='bx bxs-quote-left quotes' style='color:#f0e000'  ></i>
+              <div class="star">
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#b3b3b3' ></i>
+              </div>
+            </div>            
+            <p>Web yang sangat bagus untuk berbelanaja belanja nyaman hanya di plugshop</p>
+            <div class="kotak">
+            </div>
+            <div class="name-testi">
+              <div class="images-testimoni">
+                <img src="src/assets/IMG/1682389320129.jpg" alt="gambar1" class="personal">
+              </div>
+              <p>Sadam Husein</p>
+            </div>           
+          </div>
+
+          <div class="card-testimoni" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+            <div class="assets-testi">
+              <i class='bx bxs-quote-left quotes' style='color:#f0e000'  ></i>
+              <div class="star">
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#f0e000' ></i>
+                <i class='bx bxs-star' style='color:#b3b3b3' ></i>
+              </div>
+            </div>            
+            <p>Web yang sangat bagus untuk berbelanaja belanja nyaman hanya di plugshop</p>
+            <div class="kotak">
+            </div>
+            <div class="name-testi">
+              <div class="images-testimoni">
+                <img src="src/assets/IMG/1682389320129.jpg" alt="gambar1" class="personal">
+              </div>
+              <p>Sadam Husein</p>
+            </div>           
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer id="footer-sec">
+      <div class="container-footer">
+        <div class="foot-1">
+          <div class="img-foot">
+            <img src="src/assets/icon/Vector.png" alt="">
+            <h1>PLUG<span>shop</span></h1>
+          </div>
+          <p class="adress">H. Abdul Somad Street, Sekayu
+            Musi Banyuasin, East Sumatra
+            30711</p>
+          <div class="icon-footer">
+          <a href="#"><i class='bx bxl-instagram-alt logo-1' style='color:#fafafa' ></i></a>
+          <a href="#"><i class='bx bxl-facebook-circle logo-1' style='color:#ffffff' ></i></a>
+          <a href="#"><i class='bx bxl-play-store logo-1' style='color:#fcfcfc' ></i></a>
+          <a href="#"><i class='bx bxl-twitter logo-1' style='color:#ffffff' ></i></a>
+          </div>
+        </div>
+
+        
+        <div class="foot-2">
+          <h3>Useful Links</h3>
+          <div class="useful">
+            <a href="#"><li>Features Products</li></a>
+            <a href="#"><li>Categories</li></a>
+            <a href="#"><li>Popular Product</li></a>
+            <a href="#"><li>Media Partner</li></a>
+            <a href="#"><li>Testimoni</li></a>
+          </div>        
+        </div>
+
+        <div class="foot-3">
+          <h3>Company</h3>
+          <div class="company">
+            <li>Payment & Tax</li>
+            <li>Terms of Use</li>
+            <li>My Account</li>
+            <li>Privacy Policy</li>
+          </div>
+        </div>
+
+        <div class="foot-4">
+          <div class="content-google">
+            <h3>Download Your App</h3>
+            <p>Download app for android and ios mobile phone</p>
+          </div>         
+          <div class="google-wrap">
+            <div class="googleplay">
+              <a href="#"><i class='bx bxl-play-store'></i></a>
+              <p>Get in on <span>Google Play</span></p>
+            </div>
+
+            <div class="mac">
+              <a href="#"><i class='bx bxl-apple' ></i></a>
+              <p>Get in on <span>App Store</span></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <p class="credit">Created by <a href="#">hanifsyabani</a> | &copy; 2023.</p>
+    </footer>
+
+    <div class="modal" id="modal1">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i class='bx bx-x'></i></a>
+        <div class="modal-content">
+          <img src="src/assets/IMG/Shoes/3191-removebg-preview.png" alt="Prodyct1">
+          <div class="modal-tulisan">
+            <h3>Nike Airzoom super</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia facere molestias doloribus.</p>
+            <div class="star">
+              <i class='bx bxs-star' style='color:#f0e000' ></i>
+              <i class='bx bxs-star' style='color:#f0e000' ></i>
+              <i class='bx bxs-star' style='color:#f0e000' ></i>
+              <i class='bx bxs-star' style='color:#f0e000' ></i>
+              <i class='bx bxs-star' style='color:#b3b3b3' ></i>
+            </div>
+            <h4>$9.4</h4>
+            <div class="cart-modal">
+              <i class='bx bxs-cart-add' style='color:#007458'  ></i>
+              <p>Add to cart</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+    <!-- <script src="src/js/swiper.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script> -->
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- <script src="src/js/outside.js"></script> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

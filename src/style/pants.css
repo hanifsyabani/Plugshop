@@ -1,0 +1,27 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-primary : #007458;
+    --bg-secondary : #F0E000;
+    --font-head :  'Montserrat', sans-serif;
+    --font-reg : 'Poppins', sans-serif;
+    --font-alt : 'Bangers', cursive;
+}
+
+
+.kotak-pants{
+  background-color: #F0E000;
+  width: 15rem;
+  height: .5rem;
+  margin-bottom: 3rem;
+}

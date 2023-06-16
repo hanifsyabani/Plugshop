@@ -1,0 +1,130 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-primary : #007458;
+    --bg-secondary : #F0E000;
+    --font-head :  'Montserrat', sans-serif;
+    --font-reg : 'Poppins', sans-serif;
+    --font-alt : 'Bangers', cursive;
+}
+
+.container-shoes{
+  margin-top: 5rem;
+  padding: 2rem 7%;
+
+}
+
+.container-shoes h1{
+  color: var(--bg-primary);
+  padding-bottom: 1.5rem;
+  font-family: var(--font-head);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.container-shoes .shoes-content{
+  margin-top: 2rem;
+}
+
+.container-shoes .shoes-content .shoes-head{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  background-color: #007458;
+  width: 7rem;
+  justify-content: center;
+  color: #F0E000;
+  padding: .5rem;
+  font-family: var(--font-reg);
+  border-radius: 1rem;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.shoes-head h3{
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.shoes-head i{
+  font-size: 1.5rem;
+  color: #e6e6e6;
+}
+
+
+.container-shoes .shoes-row{
+  display: flex;
+  margin-top: 2rem;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* justify-content: center; */
+}
+
+.shoes-row .shoes-card{
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: .3s ease-in-out;
+}
+
+.shoes-row .shoes-card:hover{
+  transform: translateY(-3px);
+}
+
+.shoes-images{
+  width: 11rem;
+  height: 9.5rem;
+  justify-content: center;
+  border-radius: 2rem;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.shoes-images img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  /* justify-content: center; */
+}
+
+.shoes-card p{
+  color: #838D8B;
+  font-size: .65rem;
+  font-weight: 600;
+  margin-bottom: .5rem;    
+}
+
+.shoes-card h4{
+  color: var(--bg-primary);       
+}
+
+.shoes-card .carts{
+  /* background-color: #0064fa; */
+  border: 1.5px solid var(--bg-primary);
+  padding: 1.5px;
+  width: 2.1rem;
+  left: 8.5rem;
+  border-radius: .3rem;
+  position: relative;
+  transition: .2s linear;
+  font-size: 1.5rem;
+}
+
+.shoes-card .carts:hover{
+  border: 1.5px solid white;
+  background-color: var(--bg-secondary);
+  /* color: #0064fa; */
+}
+
